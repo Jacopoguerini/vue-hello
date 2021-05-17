@@ -10,7 +10,9 @@
     <body>
         <div id="root">
 
-            <h1 v-model="message"></h1>
+            <h1 v-bind:class="colorClass">{{ message }}</h1>
+
+            <img :src="imgUrl">
 
         </div>
 
