@@ -10,7 +10,7 @@ var app = new Vue ({
             if (this.colorClass == "green") {
                 this.colorClass = "blue";
             } else {
-                
+                this.colorClass = "green";
             }
         },
 
